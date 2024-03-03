@@ -1,4 +1,4 @@
-package ejercicio14;
+package ejercicio15;
 
 public class Aplicacion {
 
@@ -13,6 +13,16 @@ public class Aplicacion {
 
 		miEquipo.validarEquipo();
 		
+		// Si el equipo es de la disciplina de Karate
+		// tiene un descuento por hospedaje
+		
+		boolean esKarate = miEquipo.esDisciplinaKarate();
+		
+		if(esKarate) {
+			System.out.println("Tienes descuento de hospedaje");
+		}
 		
 	}
+
+
 }
