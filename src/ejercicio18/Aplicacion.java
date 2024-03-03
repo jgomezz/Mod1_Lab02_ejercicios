@@ -1,4 +1,4 @@
-package ejercicio16;
+package ejercicio18;
 
 public class Aplicacion {
 
@@ -32,6 +32,17 @@ public class Aplicacion {
 			= miEquipo.obtenerMensajePersonalizado("Lima");
 		
 		System.out.println(mensajePersonalizado);
+		
+		//
+		
+		miEquipo.setNroIntegrantes((short)20);
+		
+		System.out.println(miEquipo.toString());
+
+		miEquipo.setNroIntegrantes((short)25);
+		
+		System.out.println(miEquipo.toString());
+
 	}
 
 

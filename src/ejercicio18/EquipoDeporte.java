@@ -1,21 +1,21 @@
-package ejercicio16;
+package ejercicio18;
 
 public class EquipoDeporte {
 	
 	// nombre del país, 
 //	public String pais;
-//	private String pais;
+	private String pais;
 //	protected String pais;
-	String pais;
+//	String pais;
 	
 	// nombre del deporte, 
-	String deporte;
+	private String deporte;
 	
 	// cantidad de integrantes 
-	short nroIntegrantes;
+	private short nroIntegrantes;
 	
 	// nombre del equipo
-	String nombre;
+	private String nombre;
 	
 	public EquipoDeporte(String deporte) {
 		
@@ -72,5 +72,26 @@ public class EquipoDeporte {
 		return "Bienvenido deportistas de " +  nombreCiudad;
 	}
 
+	// GET and SET
+	
+	public short getNroIntegrantes() {
+		return nroIntegrantes;
+	}
+
+	public void setNroIntegrantes(short nroIntegrantes) {
+		this.nroIntegrantes = nroIntegrantes;
+	}
+
+	// ToString
+	@Override
+	public String toString() {
+		return "EquipoDeporte [pais=" + pais + ", deporte=" + deporte + ", nroIntegrantes=" + nroIntegrantes
+				+ ", nombre=" + nombre + "]";
+	}
+
+
+
+	
+	
 
 }
