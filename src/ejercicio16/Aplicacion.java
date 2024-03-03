@@ -32,6 +32,11 @@ public class Aplicacion {
 		
 		System.out.println(mensaje);
 		
+		
+		String mensajePersonalizado
+			= miEquipo.obtenerMensajePersonalizado("Lima");
+		
+		System.out.println(mensajePersonalizado);
 	}
 
 

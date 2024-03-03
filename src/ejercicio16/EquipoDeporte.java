@@ -44,5 +44,9 @@ public class EquipoDeporte {
 		return null;
 	}
 
+	public String obtenerMensajePersonalizado(String nombreCiudad) {
+		return "Bienvenido deportistas de " +  nombreCiudad;
+	}
+
 
 }
