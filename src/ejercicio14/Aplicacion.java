@@ -8,9 +8,9 @@ public class Aplicacion {
 
 		miEquipo.pais="PERU";
 		miEquipo.deporte="Karate";
-		miEquipo.nroIntegrantes = 6;
+		miEquipo.nroIntegrantes = 11;
 		miEquipo.nombre = "Los novatos";
 
-		
+		miEquipo.validarEquipo();
 	}
 }

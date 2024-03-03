@@ -17,7 +17,18 @@ public class EquipoDeporte {
 	// nombre del equipo
 	String nombre;
 
-
+	public void validarEquipo(){
+		
+		short nroIntegrantes = 1;
+		
+		if ( this.nroIntegrantes > 0 &&  this.nroIntegrantes <= 5) {
+			System.out.println("Equipo pequeño");
+		} else if (this.nroIntegrantes > 5 &&  this.nroIntegrantes <= 10) {
+			System.out.println("Equipo mediano");
+		} else if (this.nroIntegrantes > 10) {
+			System.out.println("Equipo grande");
+		}
+	}
 
 
 }
