@@ -2,13 +2,13 @@ package ejercicio23;
 
 public class EquipoMovilXiaomi extends EquipoMovil {
 
-	short memoria;
+	int memoria;
 
-	public short getMemoria() {
+	public int getMemoria() {
 		return memoria;
 	}
 
-	public void setMemoria(short memoria) {
+	public void setMemoria(int memoria) {
 		this.memoria = memoria;
 	}
 }

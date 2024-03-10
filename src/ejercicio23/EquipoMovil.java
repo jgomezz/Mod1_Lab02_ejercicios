@@ -4,7 +4,7 @@ public class EquipoMovil {
 
 	String marca;
 	String modelo;
-	short anho;
+	int anho;
 	
 	public String obtenerInfo() {
 		// TO DO
@@ -27,11 +27,11 @@ public class EquipoMovil {
 		this.modelo = modelo;
 	}
 
-	public short getAnho() {
+	public int getAnho() {
 		return anho;
 	}
 
-	public void setAnho(short anho) {
+	public void setAnho(int anho) {
 		this.anho = anho;
 	}
 }
