@@ -19,6 +19,12 @@ public class EquipoMovilXiaomi extends EquipoMovil {
 		this.memoria = memoria;
 	}
 
+	
+	@Override
+	public String obtenerInfo() {
+		return "Equipo Xiaomi";
+	}
+	
 	public int getMemoria() {
 		return memoria;
 	}
