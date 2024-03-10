@@ -20,6 +20,13 @@ public class Aplicacion {
 		redmi.setMemoria(6);
 		
 		System.out.println(redmi.toString());
+		
+		RedmiNote11 redmi2 =  
+				new RedmiNote11("Xiaomi","Redmi Note 11",2022,6);
+		
+		System.out.println(redmi.toString());
+		
+		
 	
 	}
 

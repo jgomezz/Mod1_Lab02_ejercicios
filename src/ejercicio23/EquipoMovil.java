@@ -2,10 +2,21 @@ package ejercicio23;
 
 public class EquipoMovil {
 
-	String marca;
-	String modelo;
-	int anho;
+	protected String marca;
+	protected String modelo;
+	protected int anho;
 	
+	public EquipoMovil() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public EquipoMovil(String marca, String modelo, int anho) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+		this.anho = anho;
+	}
+
 	public String obtenerInfo() {
 		// TO DO
 		return "Sin info";
