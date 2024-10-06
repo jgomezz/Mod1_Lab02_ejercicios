@@ -14,7 +14,7 @@ public class Aplicacion {
 
 		System.out.println("La suma es " + m.multiplicar(a, b));
 		System.out.println("La suma es " +  m.multiplicar(a, b, c));
-		System.out.println("La suma es " + m.multiplicar(1,2,3,4,5,6));
+		System.out.println("La suma es " + m.multiplicar(1,4,2,3,4,5,6));
 		
 	}
 
